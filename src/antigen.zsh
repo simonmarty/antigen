@@ -1,4 +1,5 @@
 [[ -z "$_ANTIGEN_INSTALL_DIR" ]] && _ANTIGEN_INSTALL_DIR=${0:A:h}
+[[ -z "$_ANTIGEN_INSTALL_LOCATION" ]] && _ANTIGEN_INSTALL_LOCATION=${0:A}
 
 # Each line in this string has the following entries separated by a space
 # character.
